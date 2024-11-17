@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+textarea {
+  width: 50%;
+  padding: 20px;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  font-family: "Courier New", monospace;
+}
+
+#preview {
+  width: 50%;
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 1px solid #ddd;
+  font-size: 16px;
+}
